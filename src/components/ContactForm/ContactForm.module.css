@@ -1,0 +1,39 @@
+.form {
+  font-size: 30px;
+}
+
+.form__input {
+  width: 250px;
+  height: 30px;
+  padding: 3px 5px 3px 5px;
+  border: 1px solid transparent;
+  font-size: 20px;
+  border-radius: 4px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.form__text {
+  color: #1e90ff;
+}
+
+.form__btn {
+  border-radius: 4px;
+  margin-top: 40px;
+  border: transparent;
+  padding: 10px 20px;
+  color: #1e90ff;
+  font-size: 20px;
+  cursor: pointer;
+  background: #f5f4fa;
+  text-align: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form__btn:hover,
+.form__btn:focus {
+  background-color: #1e90ff;
+  color: #f5f4fa;
+}
